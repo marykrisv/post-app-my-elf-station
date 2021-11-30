@@ -1,0 +1,40 @@
+.homepage-container {
+  .post-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .add-post-text {
+    flex-grow: 1;
+  }
+
+  .form {
+    width: 100%;
+  }
+  
+  .post-card {
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+    min-height: 140px;
+    margin: 20px 0;
+    padding: 30px;
+  }
+
+}
+
+.user-initial {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  background: #1abc9c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-right: 20px;
+}
+
+.no-posts-container {
+  margin-top: 100px;
+}

@@ -1,0 +1,27 @@
+.user-post-initial {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  background: #1abc9c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-right: 20px;
+}
+
+.upper-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+
+  .user-full-name {
+    height: 100%;
+  }
+
+  .post-card-name-container {
+    display: flex;
+    align-items: center;
+  }
+}

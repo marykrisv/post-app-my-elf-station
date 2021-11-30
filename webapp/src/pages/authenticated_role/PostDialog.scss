@@ -1,0 +1,23 @@
+.post-info-container {
+  width: 500px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.name-privacy-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-full-name {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.privacy-select {
+  height: 25px;
+}
+
+.add-post-text {
+  width: 100%;
+}
