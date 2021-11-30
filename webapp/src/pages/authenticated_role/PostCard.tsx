@@ -37,6 +37,7 @@ export const PostCard = ({post, reload}: PostCardType) => {
         postService.deletePost(post.id!).then(() => {
             alert('Successfully Deleted!')
             handleDeleteConfirmationDialogOnClose()
+            reload()
         })
     }
 
